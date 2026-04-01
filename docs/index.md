@@ -16,7 +16,7 @@ hero:
 features:
   - title: 🚀 Automated
     details: Documentation created automatically from every PR
-  - title: 🤖 AI-Powered
+  - title: 🤖 AI-Generated
     details: AI generates first draft of technical and business docs
   - title: 📝 Jira Integration
     details: Linked to your Jira tickets for full traceability
