@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { featureDocSidebarItems } from './featureSidebar'
 
 export default defineConfig({
   title: "Sales Portal Documentation",
@@ -15,8 +16,11 @@ export default defineConfig({
       '/features/': [
         {
           text: 'Features',
-          items: [{ text: 'Overview', link: '/features/' }]
-        }
+          items: [
+            { text: 'Overview', link: '/features/' },
+            ...featureDocSidebarItems(),
+          ],
+        },
       ],
       '/api/': [
         {
