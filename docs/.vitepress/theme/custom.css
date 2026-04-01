@@ -1,0 +1,20 @@
+:root {
+    --vp-c-brand: #646cff;
+    --vp-c-brand-light: #747bff;
+    --vp-c-brand-dark: #535bf2;
+  }
+  
+  /* Custom styles for documentation */
+  .vp-doc h1 {
+    border-bottom: 1px solid var(--vp-c-divider);
+    padding-bottom: 0.5rem;
+  }
+  
+  /* Jira ticket styling */
+  .jira-ticket {
+    background: #f0f0f0;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    font-family: monospace;
+    font-size: 0.9em;
+  }
