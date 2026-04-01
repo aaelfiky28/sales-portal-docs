@@ -15,10 +15,7 @@ export default defineConfig({
       '/features/': [
         {
           text: 'Features',
-          items: [
-            { text: 'Overview', link: '/features/' },
-            // Auto-generated items will appear here
-          ]
+          items: [{ text: 'Overview', link: '/features/' }]
         }
       ],
       '/api/': [
